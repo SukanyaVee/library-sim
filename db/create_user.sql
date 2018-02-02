@@ -1,0 +1,1 @@
+INSERT INTO lib_users (username, password) VALUES ($1, $2) RETURNING *; 

@@ -1,0 +1,1 @@
+SELECT * FROM lib_users JOIN lib_books ON lib_users.id=lib_books.checked_out_by;
